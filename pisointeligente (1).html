@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PISOINTELIGENTE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      background: linear-gradient(to bottom, #f0f4f8, #d6eaf8);
+    }
+    header {
+      background: linear-gradient(to right, #008CBA, #005f75);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    header img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    }
+    nav {
+      background-color: #005f75;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 1s ease-in;
+    }
+    h2 {
+      color: #005f75;
+      border-bottom: 2px solid #008CBA;
+      padding-bottom: 0.5rem;
+    }
+    .info, .benefits, .about, .contact, .why {
+      margin-bottom: 4rem;
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .cta {
+      background-color: #008CBA;
+      color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      box-shadow: 0 0 10px rgba(0,140,186,0.5);
+    }
+    .cta input {
+      padding: 0.5rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 5px;
+      width: 250px;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #004f6e;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #007399;
+    }
+    .bg-section {
+      background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 5rem 1rem;
+      text-shadow: 1px 1px 4px #000;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/100x100.png?text=LOGO" alt="Logo Pisointeligente">
+    <h1>PISOINTELIGENTE</h1>
+    <p>Impulsamos tu inmobiliaria al siguiente nivel</p>
+  </header>
+
+  <nav>
+    <a href="#info">Información</a>
+    <a href="#why">¿Por qué elegirnos?</a>
+    <a href="#benefits">Beneficios</a>
+    <a href="#about">Sobre nosotros</a>
+    <a href="#contact">Contáctanos</a>
+  </nav>
+
+  <section id="info" class="info bg-section">
+    <h2>Servicios que ofrecemos</h2>
+    <p><strong>Duplica tus ingresos inmobiliarios en 30 días sin contratar más personal ni complicarte con tecnología.</strong></p>
+    <p>Ayudamos a agencias inmobiliarias a captar más clientes y automatizar tareas clave usando Inteligencia Artificial sin necesidad de ser expertos.</p>
+    <ul>
+      <li>Chatbots inteligentes 24/7 para captar y calificar leads.</li>
+      <li>Automatización del seguimiento por WhatsApp/Email con IA.</li>
+      <li>Análisis predictivo: ¿qué propiedades mostrar primero?</li>
+      <li>Modelos de scoring de leads con IA (para priorizar clientes).</li>
+      <li>Automatización de publicación de propiedades en portales.</li>
+      <li>Resúmenes automáticos de visitas, emails y notas con IA.</li>
+      <li>Generación de contenido de propiedades con IA: descripciones, títulos, correos.</li>
+    </ul>
+  </section>
+
+  <section id="why" class="why">
+    <h2>¿Por qué elegirnos?</h2>
+    <ul>
+      <li>Somos expertos en IA aplicada al sector inmobiliario.</li>
+      <li>Nuestra solución es fácil de usar, sin necesidad de conocimientos técnicos.</li>
+      <li>No tendrás que cambiar tu equipo ni tus herramientas actuales.</li>
+      <li>Aumentarás tu captación sin aumentar tu carga de trabajo.</li>
+    </ul>
+  </section>
+
+  <section id="benefits" class="benefits">
+    <h2>Beneficios para tu agencia</h2>
+    <ul>
+      <li>Aumenta tus ingresos entre un 20% y 60% sin aumentar tu carga de trabajo.</li>
+      <li>Automatiza tareas como responder clientes, publicar en portales y seguimiento.</li>
+      <li>Recibe más leads cualificados sin tener que buscarlos.</li>
+      <li>Solución 100% adaptada al sector inmobiliario.</li>
+      <li>Ahorra tiempo, personal y dinero.</li>
+    </ul>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Sobre nosotros</h2>
+    <p>Somos la primera agencia especializada en inteligencia artificial para inmobiliarias de habla hispana. Transformamos procesos obsoletos en flujos inteligentes que aumentan tu captación, automatizan tu gestión y multiplican tus cierres, sin depender de grandes equipos ni herramientas complejas.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contáctanos</h2>
+    <p>Email: <a href="mailto:pisointeligente@gmail.com">pisointeligente@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/34644855233" target="_blank">644 855 233</a></p>
+    <div class="cta">
+      <p>¿Interesado? Déjanos tu número o correo y te contactamos:</p>
+      <input type="text" placeholder="Tu número o correo">
+      <button>Enviar</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PISOINTELIGENTE · Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
